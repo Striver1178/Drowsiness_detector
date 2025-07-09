@@ -1,0 +1,20 @@
+{
+  "name": "drowsiness-detector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanupadhyay3108/drowsiness-detector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanupadhyay3108/drowsiness-detector/issues"
+  },
+  "homepage": "https://github.com/amanupadhyay3108/drowsiness-detector#readme",
+  "description": ""
+}

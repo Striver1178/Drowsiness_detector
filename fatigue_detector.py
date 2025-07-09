@@ -1,5 +1,6 @@
 import cv2
 import mediapipe as mp
+# Fatigue Detection using Eye Aspect Ratio (EAR)
 import math
 import time
 

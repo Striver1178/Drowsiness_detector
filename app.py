@@ -14,8 +14,8 @@ st.markdown("Detect mental fatigue based on blink rate and eye closure duration.
 
 # === Sidebar Settings ===
 ear_threshold = st.sidebar.slider("EAR Threshold", min_value=0.1, max_value=0.4, value=0.21, step=0.01)
-blink_threshold = st.sidebar.slider("Blinks per Minute Threshold", min_value=1, max_value=30, value=8, step=1)
-closure_frame_limit = st.sidebar.slider("Frames for Long Eye Closure", min_value=10, max_value=200, value=90, step=10)
+blink_threshold = st.sidebar.slider("Blinks per Minute Threshold", min_value=1, max_value=15, value=4, step=1)
+closure_frame_limit = st.sidebar.slider("Frames for Long Eye Closure", min_value=5, max_value=100, value=45, step=5)
 enable_audio = st.sidebar.checkbox("Enable Audio Alert", value=True)
 
 # === Function to calculate EAR ===
